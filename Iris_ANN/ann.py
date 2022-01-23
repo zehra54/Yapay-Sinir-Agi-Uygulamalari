@@ -10,7 +10,7 @@ data = pd.read_csv('iris.data')
 
 # Okunan veri girdi(X) ve çıktı(Y) olarak ayrıştırılır.
 X = data.iloc[:,:5].values
-Y = data.iloc[:,3].values  
+Y = data.iloc[:,2].values  
             
 # Okunan verinin çıktı kısmı birden fazla sınıf içerdiğinden kategorik olarak ayrıştırılır.
 # Toplamda 3 sınıf var: Iris-setosa,Iris-versicolor,Iris-virginica
