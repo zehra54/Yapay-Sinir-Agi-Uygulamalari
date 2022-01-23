@@ -71,6 +71,6 @@ acc_history = history_callback.history["acc"]
 loss,accuracy = classifier.evaluate(X_test,y_test)
 
 # Rastgele bir veri seçilerek çıktı önizlenir.
-tahmin = sc.transform(np.array([5.0,2.0,3.5,1.0])).reshape(1,4)
+tahmin = sc.transform(np.array([4.0,6.0,5.4,1.0])).reshape(1,4)
 predict = classifier.predict(tahmin)
 predict_class = classifier.predict_classes(tahmin)[0]
