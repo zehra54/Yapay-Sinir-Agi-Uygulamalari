@@ -27,8 +27,3 @@ elif float(artış_değeri) >= 0.10:
     giriş = giriş + "yürüme"
 else:
     giriş = giriş + "golf"
-    
-
-    
-
-
