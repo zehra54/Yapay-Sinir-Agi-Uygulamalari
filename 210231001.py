@@ -1,3 +1,5 @@
+İmport from keras 
+"EKG"
 giriş = "kalbin hızlı çalışması"
 print ("artışı_girin :\n")
 artışı_girin:
