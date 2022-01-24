@@ -60,7 +60,7 @@ def build_model():
 classifier = build_model()
 # Oluşturulan model train verileri ile eğitilir. Yapay Sinir Ağı eğitilmeye başlar.
 # nb_epoch: İterasyon sayısı
-history_callback = classifier.fit(X_train,y_train,nb_epoch=100)
+history_callback = classifier.fit(X_train,y_train,nb_epoch=90)
 
 #(Opsiyonel) Eğer modelin eğitilmesi sırasında elde edilen "accuracy" ve "loss" değerlerine -
 # erişilmek istenirse kullanılır. Yakınsama grafiğini çizdirmek için kullanılabilir.
