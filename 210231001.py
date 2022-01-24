@@ -5,6 +5,7 @@ from keras.utils import np_utils
 
 # Veri dosya üzerinden okunur.
 data = pd.read_csv('ekg.data')
+
 giriş = "kalbin hızlı çalışması"
 print ("artışı_girin :\n")
 artışı_girin:
